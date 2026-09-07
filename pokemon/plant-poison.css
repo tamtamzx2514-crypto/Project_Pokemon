@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', Arial, sans-serif;
+}
+
+็
+
+
+.Home
+{
+    padding-top: 0;
+}
+.container-Home
+{
+    /*border: 2px solid red;*/
+    margin-top: 5rem;
+    padding: 20px 17rem;
+}
+.container-Home a .fi
+{ 
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.container-Home a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.container-Home a:hover
+{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+.card
+{
+    margin: 2rem 20% 0 20%;
+    /*border: 2px solid red;*/
+    box-shadow: 1px 1px 10px rgb(0, 0, 0 ,0.3);
+    border-radius: 20px;
+    background-color: #ebebeb46;
+}
+.container-card
+{
+    padding: 0px;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+.character
+{
+    display: flex;
+    background: radial-gradient(circle at 25% 50% , #86ff9073 0% , #ffffff 55%);
+    gap: 4rem;
+    padding: 4rem;
+}
+.character img
+{
+    width: 20rem;
+    height: auto;
+    margin-left: 50px;
+}
+.text-character
+{
+    padding: 2rem 0;
+}
+.text-character h1
+{
+    font-size: 3rem;
+}
+.text-character h3
+{
+    font-size: 1.2rem;
+    color: #8d8d8d;
+}
+.pokemon-num
+{
+    font-size: 1.3rem; 
+    font-weight: bold;
+    color: #8d8d8d;
+}
+.element
+{
+    /*border: 2px solid red;*/
+    margin: 1rem 0 0 0;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0,0.3);
+    width: 80px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+.Plant
+{
+    background-color: rgb(139, 212, 110);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.2rem;
+    border: 2px solid rgba(116, 116, 116, 0.192);
+    padding: 5px 20px;
+}
+.Poison
+{
+    background-color: #a74bb3b0;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.2rem;
+    border: 2px solid rgba(116, 116, 116, 0.192);
+    padding: 5px 20px;
+}
+
+.weight
+{
+    display: flex;
+    gap: 5rem;
+    margin: 2rem 0;
+    /*border: 2px solid red;*/
+}
+.weight h5
+{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+.card-info
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    padding: 10px 20px;
+    margin: 25px 20px;
+}
+.text
+{
+    background-color: white;;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ebebeb;
+}
+.story
+{
+    background-color: white;;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 2px solid #ebebeb;
+    margin: 10px 40px;
+}
+.story h3
+{
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+
+.story p
+{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    color: #858585;
+    margin: 15px 0 0 0;
+}
+.text h3
+{
+    font-size: 1.2rem;
+}
+.text h1 i ,
+.story h1 i
+{
+    color: #ef4444;
+    background-color: #ef444442;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.text p
+{
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+    color: #858585;
+    margin: 15px 0 0 0;
+}
